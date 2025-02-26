@@ -1,10 +1,6 @@
 # MatchFlix
 like tinder, but for movies
 
-# MatchFlix – Your Smart Movie Night Companion
-
-MatchFlix is a **fun and interactive web app** that helps couples decide **what to watch together** by matching their preferences. No more endless scrolling and debates—MatchFlix makes picking a movie easy, exciting, and seamless!  
-
 ## Features  
 ### 🔹 **User Profiles & Preferences**
 - Sign in with **Google Authentication (Firebase)**
