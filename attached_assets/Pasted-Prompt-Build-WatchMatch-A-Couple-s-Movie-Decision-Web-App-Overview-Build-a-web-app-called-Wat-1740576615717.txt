@@ -1,0 +1,55 @@
+Prompt: Build "WatchMatch" – A Couple's Movie Decision Web App
+Overview:
+Build a web app called "WatchMatch" that helps couples decide what to watch together by using a mutual preference-based matching system. The app will integrate a movie database API (TMDb), user profiles, and a swipe-based decision system to make picking a movie easy and fun.
+
+🎯 Core Features & Functionality:
+1️⃣ User Authentication & Profiles
+Implement Google/Firebase authentication so each partner can log in.
+Allow users to create a profile with:
+Favorite genres (Action, Comedy, Horror, etc.)
+Preferred streaming platforms (Netflix, Prime, Disney+, etc.)
+Favorite actors/directors (autocomplete search)
+Store user preferences in a database (Firebase or MongoDB).
+2️⃣ Movie Selection & Matching System
+Fetch movie and TV show data from The Movie Database (TMDb) API.
+Apply filters based on both partners' preferences:
+Common genres
+Available streaming platforms
+High ratings (IMDB/Rotten Tomatoes)
+Display movie recommendations in a Tinder-style swipe UI:
+Swipe right ✅ to like a movie.
+Swipe left ❌ to skip.
+When both users like the same movie, show "It’s a Match!" with a link to stream.
+3️⃣ Quick Decision Mode (Surprise Me)
+Add a "Surprise Me" button to instantly pick a movie based on mutual likes.
+Show an animation/countdown effect before revealing the selection.
+Include a "Watch Now" button linking to the streaming platform.
+4️⃣ Wishlist & Watch History
+Allow users to save movies to a Wishlist for future viewing.
+Store a history of previously watched movies.
+Option to rate past movies to improve recommendations.
+5️⃣ Poll Feature (If Users Can’t Decide)
+Let users create a poll with 2-4 movie options.
+The other partner can vote on the best choice.
+Display the winning movie after voting.
+6️⃣ Chat & Notification System
+A simple chat feature so partners can discuss movie choices in-app.
+Send a notification when a match is found.
+🎨 UI/UX Requirements
+Minimalist & visually appealing (dark mode preferred).
+Responsive design (works well on desktop & mobile).
+Smooth animations & transitions for a fun experience.
+⚙️ Tech Stack
+Frontend: React.js / Next.js (for a smooth UI)
+Backend: Firebase (for authentication & real-time data) or Node.js with Express
+Database: Firestore (to store user preferences, swipes, and watch history)
+API Integration: TMDb API (for fetching movie/show data)
+Hosting: Vercel or Firebase Hosting
+🚀 Deployment & Extras
+Deploy the app on Vercel or Firebase Hosting.
+Ensure SEO optimization (for future public access if needed).
+Add progressive web app (PWA) support (optional).
+🌟 Expected Output
+A fully functional web app that lets couples swipe, match, and decide on movies easily.
+A fun, interactive experience that removes decision fatigue.
+An AI-driven recommendation system that improves over time.
