@@ -43,7 +43,7 @@ like tinder, but for movies
 - **Frontend:** React.js / Next.js  
 - **Backend:** Firebase (Authentication & Database)  
 - **Database:** Firestore (for user preferences & history)  
-- **API Integration:** TMDb API (Movie/TV Data)  
+- **API Integration:** TMDb API (Movie/TV Data)  - Free API Access
 - **Hosting:** Vercel / Firebase Hosting  
 
 ## How It Works  
